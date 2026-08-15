@@ -14,28 +14,37 @@
   <body>
   
     <button id="fetchButton">Fetch NASA Image</button>
-<img id="apodImage" src="" alt="NASA APOD" />
+    <div></div>
+    <img id="apodImage" src="" alt="NASA APOD" />
+    <p id="explaination"></p>
+    
 
-
-    <script src="main_sketch_1.js"></script>
 
     <script>
-
      const apiKey = "cfriGOTqNd3Xu2tGEdkqZHSh2srC07xXrjwl2QfZ";
 
-document.getElementById("fetchButton").addEventListener("click", () => {
-  fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
-    .then((response) => response.json())
-    .then((data) => {
-      document.getElementById("apodImage").src = data.url;
-      document.getElementById("apodImage").alt = data.title;
-      console.log(data);
-    })
-    .catch((error) => {
-      console.error("Fetch failed:", error);
+    document.getElementById("fetchButton").addEventListener("click", () => {
+      fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
+      
+        .then((response) => response.json())
+        .then((data) => {
+          document.getElementById("apodImage").src = data.url;
+          document.getElementById("apodImage").alt = data.title;
+
+          document.getElementById("explaination").textContent = data.explanation;
+
+
+           console.log(data);
+
+        })
+        .catch((error) => {
+          console.error("Fetch failed:", error);
+        });
     });
-});
     </script>
+
+
+
     
   </body>
 </html>
