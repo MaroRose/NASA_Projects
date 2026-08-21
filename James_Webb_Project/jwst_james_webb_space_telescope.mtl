@@ -1,0 +1,288 @@
+# Innerscene 3D Viewer export
+newmtl JWST-bracket2-fl
+Kd 0.462 0.462 0.462
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 182.4
+d 1.000
+illum 2
+
+newmtl JWST-bottom-box-PURPLEY
+Kd 0.656 0.450 0.605
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-silver-sm
+Kd 0.827 0.828 0.805
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-bracket2-sm
+Kd 0.462 0.462 0.462
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 256.0
+d 1.000
+illum 2
+
+newmtl JWST-black-sm
+Kd 0.122 0.122 0.122
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-black-fl
+Kd 0.122 0.122 0.122
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-bracket1-sm
+Kd 0.167 0.167 0.167
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-bronze-sm
+Kd 0.778 0.740 0.574
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-silver2-fl
+Kd 0.696 0.697 0.678
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-silver-fl
+Kd 0.827 0.828 0.805
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-bottom-box-bot-PURPLEY
+Kd 0.656 0.450 0.605
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-bottom-box-bot-fl-PURPLEY
+Kd 0.656 0.450 0.605
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl sc_rad_smli1
+Kd 0.087 0.080 0.100
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl blackpaint_lambert1
+Kd 0.200 0.200 0.200
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl sc_post_pmli1
+Kd 0.150 0.105 0.120
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-gold-nofoil-sm
+Kd 0.765 0.659 0.264
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl whitepaint_lambert
+Kd 1.000 1.000 1.000
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl sc_post_pmli
+Kd 0.150 0.105 0.120
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-TopReflector
+Kd 0.784 0.548 0.158
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 230.7
+d 1.000
+illum 2
+
+newmtl JWST-greyfla-fl
+Kd 0.401 0.403 0.406
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-bracket1-fl
+Kd 0.652 0.652 0.652
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-gold-fl
+Kd 0.783 0.550 0.156
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 256.0
+d 1.000
+illum 2
+
+newmtl JWST-mirror-sm
+Kd 0.335 0.248 0.767
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 256.0
+d 1.000
+illum 2
+
+newmtl JWST-instrument-silverfoil-sm
+Kd 0.746 0.746 0.746
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-instrument-silverfoil-2-sm
+Kd 0.479 0.479 0.479
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-instrument-silverfoil-3-sm
+Kd 0.246 0.246 0.246
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-TopReflector-fl
+Kd 0.784 0.549 0.157
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-FoilLayer5-PURPLEY
+Kd 0.000 0.000 0.000
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-FoilLayer4
+Kd 0.206 0.206 0.206
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 256.0
+d 1.000
+illum 2
+
+newmtl JWST-FoilLayer3
+Kd 0.202 0.202 0.202
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 256.0
+d 1.000
+illum 2
+
+newmtl JWST-FoilLayer2
+Kd 0.067 0.067 0.067
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 256.0
+d 1.000
+illum 2
+
+newmtl JWST-FoilLayer1
+Kd 0.248 0.248 0.248
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 256.0
+d 1.000
+illum 2
+
+newmtl sa_edge_gold
+Kd 0.150 0.138 0.075
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl JWST-SolarPanel-22
+Kd 0.332 0.246 0.768
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 256.0
+d 1.000
+illum 2
+
+newmtl JWST-FoilBasePanel-2-PURPLEY
+Kd 0.656 0.450 0.605
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
+
+newmtl Default
+Kd 0.784 0.784 0.784
+Ka 0.00 0.00 0.00
+Ks 0.10 0.10 0.10
+Ns 128.0
+d 1.000
+illum 2
