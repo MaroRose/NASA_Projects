@@ -12,15 +12,17 @@
   </head>
 
   <body>
-  
-    <button id="fetchButton">Fetch NASA Image</button>
-    <div></div>
+    
+
+    <h1 id = "title"></h1>
     <img id="apodImage" src="" alt="NASA APOD" />
+    <button id="fetchButton">Fetch NASA Image</button>
     <p id="explaination"></p>
     
     <!-- Add your JavaScript code here -->
     <script>
-          const apiKey = "cfriGOTqNd3Xu2tGEdkqZHSh2srC07xXrjwl2QfZ";
+
+        const apiKey = "cfriGOTqNd3Xu2tGEdkqZHSh2srC07xXrjwl2QfZ";
 
     document.getElementById("fetchButton").addEventListener("click", () => {
       fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
@@ -29,6 +31,7 @@
         .then((data) => {
           document.getElementById("apodImage").src = data.url;
           document.getElementById("apodImage").alt = data.title;
+          document.getElementById("title").innerText = data.title;
 
           document.getElementById("explaination").textContent = data.explanation;
 
